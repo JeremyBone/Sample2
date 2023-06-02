@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class CharacterMovement : MonoBehaviour
 {
-    public CharacterController2D controller;
+    public Character_Mover controller;
 
     public float runSpeed = 40f;
 
